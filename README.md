@@ -1,336 +1,70 @@
-https://aluminiwebportal-1.onrender.com
- # Problem Statement
+# Getting Started with Create React App
 
-Many educational institutions maintain alumni records manually using spreadsheets, paper records, or disconnected systems. As a result:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-•Alumni information becomes outdated.
-•Communication between alumni and the institution is weak.
-•Organizing alumni events becomes difficult.
-•Students cannot connect with alumni for career guidance.
-•Donation and placement opportunities are not managed effectively.
+## Available Scripts
 
-A centralized digital platform is required to securely store alumni information and improve engagement between alumni, students, faculty, and administrators.
+In the project directory, you can run:
 
-# Proposed Solution
+### `npm start`
 
-Develop a web-based platform that allows colleges to maintain all alumni information in one centralized database.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The platform enables:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-•Alumni Registration
-•Alumni Profile Management
-•Event Management
-•Job Posting
-•Mentorship
-•Announcements
-•Alumni Directory
-•Donation Tracking
-•Reports and Analytics
+### `npm test`
 
-# Objectives
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-➜Create a centralized alumni database.
-➜Improve communication between alumni and institution.
-➜Provide career guidance through alumni mentorship.
-➜Provide career guidance through alumni mentorship.
-➜Publish job opportunities.
-➜Conduct alumni events digitally.
-➜Generate reports for management.
-➜Maintain secure user authentication.
+### `npm run build`
 
-# Users
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-User    	Responsibilities
-Admin	        Manage entire platform
-Alumni	        Update profile, participate in events
-Student	        View alumni, apply for mentorship
-Faculty 	Monitor alumni activities
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# Functional Requirements
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Admin:
-➤Login
-➤Dashboard
-➤Verify Alumni
-➤Manage Students
-➤Manage Events
-➤Manage Jobs
-➤Send Announcements
-➤View Reports
+### `npm run eject`
 
-Alumni:
-➤Registration
-➤Login
-➤Update Profile
-➤Upload Photo
-➤Add Employment Details
-➤Register for Events
-➤Apply as Mentor
-➤Post Jobs
-➤Donate
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Student:
-➤Login
-➤Search Alumni
-➤Request Mentorship
-➤View Jobs
-➤Register for Events
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Faculty:
-➤Login
-➤View Alumni Reports
-➤Approve Events
-➤View Student Requests
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-# Non-Functional Requirements
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-•Secure Login
-•Fast Response Time
-•Responsive Design
-•Database Backup
-•Easy Navigation
-•Scalability
-•Data Privacy
+## Learn More
 
-# Software Requirements
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Frontend:
-1.HTML5
-2.CSS3
-3.Bootstrap
-4.JavaScript
-5.React.js (Recommended)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Backend:
-1.Node.js
-2.Express.js
-3.Python Django
+### Code Splitting
 
-Database:
-MySQL
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-IDE:
-Visual Studio Code
+### Analyzing the Bundle Size
 
-Version Control:
-1.Git
-2.GitHub
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Browser:
-Chrome
+### Making a Progressive Web App
 
-# Hardware Requirements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-✓Intel i3 or above
-✓8 GB RAM
-✓256 GB SSD
-✓Internet Connection
+### Advanced Configuration
 
-# Modules
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Module 1
-User Authentication
+### Deployment
 
-Features
-  Login
-  Registration
-  Forgot Password
-  Role Management
-  
-Module 2
-Alumni Profile Management
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Features
-  Personal Details
-  Educational Details
-  Employment Details
-  Skills
-  Social Links
-  
-Module 3
-Student Portal
+### `npm run build` fails to minify
 
-Features
-  Search Alumni
-  View Profiles
-  Mentorship Request
-  Job Search
-  
-Module 4
-Event Management
-
-Features
-  Create Events
-  Register Events
-  Attendance
-  Feedback
-  
-Module 5
-Job Portal
-
-Features
-  Post Jobs
-  Apply Jobs
-  Internship Opportunities
-  
-Module 6
-Mentorship
-
-Features
-  Mentor Registration
-  Student Requests
-  Accept/Reject Requests
-  
-Module 7
-Announcements
-
-Features
-  News
-  Notifications
-  Email Alerts
-  
-Module 8
-Donation Management
-
-Features
-  Donation Records
-  Payment Status
-  Reports
-  
-Module 9
-Reports & Analytics
-
-Features
-  Alumni Count
-  Department-wise Alumni
-  Active Alumni
-  Event Participation
-  Donations Report
-  
-# Use Case Diagram
-                 Admin
-                    |
-      -----------------------------
-      |      |      |      |      |
-   Users  Events  Jobs Reports Alumni
-
-                 Alumni
-                    |
-      -----------------------------
-      |      |      |      |
-   Profile Events Mentor Jobs
-
-                Student
-                    |
-      -----------------------------
-      |       |       |
-   Search  Mentorship Jobs
-   
-# Database Tables
-
-Users:
-◆User_ID
-◆Name
-◆Email
-◆Password
-◆Role
-
-Alumni:
-◆Alumni_ID
-◆User_ID
-◆Department
-◆Batch
-◆Company
-◆Designation
-◆Experience
-◆Skills
-◆Location
-
-Students:
-◆Student_ID
-◆User_ID
-◆Department
-◆Year
-
-Events:
-◆Event_ID
-◆Event_Name
-◆Date
-◆Venue
-◆Description
-
-Event Registration:
-◆Registration_ID
-◆Event_ID
-◆User_ID
-◆Status
-
-Jobs:
-◆Job_ID
-◆Company
-◆Role
-◆Location
-◆Salary
-◆Deadline
-◆Posted_By
-
-Mentorship:
-◆Request_ID
-◆Student_ID
-◆Alumni_ID
-◆Status
-
-Donations:
-◆Donation_ID
-◆Alumni_ID
-◆Amount
-◆Date
-◆Purpose
-
-Announcements:
-◆Announcement_ID
-◆Title
-◆Description
-◆Date
-
-# Technology Stack
-
-Layer        	        Technology
-Frontend	        React.js, HTML, CSS, Bootstrap
-Backend	                Node.js, Express.js
-Database	        MySQL
-Authentication	        JWT
-API Testing	        Postman
-Version Control	        GitHub
-
-# Project Architecture
-Users
-   |
-Frontend (React.js)
-   |
-REST API
-   |
-Backend (Node.js + Express)
-   |
-MySQL Database
-
-# Expected Outcomes
-
-❖Centralized alumni database.
-❖Improved alumni engagement.
-❖Easy communication between alumni and students.
-❖Better event management.
-❖Career guidance through mentorship.
-❖Job and internship opportunities.
-❖Efficient report generation.
-
-# vc Future Enhancements
-
-❖Mobile Application (Android/iOS)
-❖AI-based Alumni Recommendation
-❖Resume Builder
-❖Video Mentorship
-❖Chat System
-❖Alumni Achievement Recognition
-❖AI Chatbot Support
-❖Predictive Analytics for Alumni Engagement
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
