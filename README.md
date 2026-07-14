@@ -322,21 +322,21 @@ MySQL Database
 
 ## Expected Outcomes:
 
-★Centralized alumni database.
-★Improved alumni engagement.
-★Easy communication between alumni and students.
-★Better event management.
-★Career guidance through mentorship.
-★Job and internship opportunities.
-★Efficient report generation.
+◆Centralized alumni database.
+◆Improved alumni engagement.
+◆Easy communication between alumni and students.
+◆Better event management.
+◆Career guidance through mentorship.
+◆Job and internship opportunities.
+◆Efficient report generation.
 
 ## Future Enhancements:
 
-★Mobile Application (Android/iOS)
-★AI-based Alumni Recommendation
-★Resume Builder
-★Video Mentorship
-★Chat System
-★Alumni Achievement Recognition
-★AI Chatbot Support
-★Predictive Analytics for Alumni Engagement
+Mobile Application (Android/iOS)
+◆AI-based Alumni Recommendation
+◆Resume Builder
+◆Video Mentorship
+◆Chat System
+◆Alumni Achievement Recognition
+◆AI Chatbot Support
+◆Predictive Analytics for Alumni Engagement
