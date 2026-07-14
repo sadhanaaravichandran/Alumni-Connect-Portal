@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## Problem Statement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Many educational institutions maintain alumni records manually using spreadsheets, paper records, or disconnected systems. As a result:
 
-## Available Scripts
+Alumni information becomes outdated.
+Communication between alumni and the institution is weak.
+Organizing alumni events becomes difficult.
+Students cannot connect with alumni for career guidance.
+Donation and placement opportunities are not managed effectively.
 
-In the project directory, you can run:
+A centralized digital platform is required to securely store alumni information and improve engagement between alumni, students, faculty, and administrators.
 
-### `npm start`
+## Proposed Solution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Develop a web-based platform that allows colleges to maintain all alumni information in one centralized database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The platform enables:
 
-### `npm test`
+Alumni Registration
+Alumni Profile Management
+Event Management
+Job Posting
+Mentorship
+Announcements
+Alumni Directory
+Donation Tracking
+Reports and Analytics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Domain
 
-### `npm run build`
+Web Application Development
+Database Management
+Full Stack Development
+Cloud Computing 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Objectives
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create a centralized alumni database.
+Improve communication between alumni and institution.
+Provide career guidance through alumni mentorship.
+Publish job opportunities.
+Conduct alumni events digitally.
+Generate reports for management.
+Maintain secure user authentication.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
